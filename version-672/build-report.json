@@ -1,0 +1,23 @@
+{
+  "movie_count": 2000,
+  "video_source_count": 150,
+  "categories": {
+    "热门国产电影": 250,
+    "剧情治愈": 250,
+    "喜剧综艺": 250,
+    "爱情青春": 250,
+    "动作冒险": 250,
+    "科幻奇幻": 250,
+    "悬疑犯罪": 250,
+    "动画家庭": 250
+  },
+  "validation": {
+    "html_files": 2012,
+    "movie_files": 2000,
+    "category_files": 8,
+    "analytics_missing": [],
+    "bad_visible_terms": [],
+    "movie_count_expected": 2000,
+    "movie_count_ok": true
+  }
+}

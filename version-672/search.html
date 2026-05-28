@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>影片搜索筛选-热门国产电影-热门好看电影大全-高清影片在线观看</title>
+  <meta name="description" content="搜索热门国产电影、热门好看电影、高清影片和在线观看内容。">
+  <meta name="keywords" content="热门国产电影,热门好看电影,高清影片,在线观看,国产电影,电影大全,精选影片">
+  <meta name="robots" content="index,follow">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="./index.html" aria-label="热门国产电影首页">
+        <span class="brand-icon">▶</span>
+        <span class="brand-text">
+          <strong>热门国产电影</strong>
+          <small>热门好看电影大全 · 高清影片在线观看</small>
+        </span>
+      </a>
+      <nav class="desktop-nav" aria-label="主导航">
+        <a class="" href="./index.html">首页</a>
+<a class="" href="./categories.html">分类总览</a>
+<a class="" href="./ranking.html">排行榜</a>
+<a class="active" href="./search.html">搜索筛选</a>
+        <span class="nav-dropdown">
+          <button type="button">热门分类</button>
+          <span class="dropdown-panel">
+            <a href="./category-hot-domestic.html">热门国产电影</a>
+<a href="./category-drama-healing.html">剧情治愈</a>
+<a href="./category-comedy-variety.html">喜剧综艺</a>
+<a href="./category-romance-youth.html">爱情青春</a>
+          </span>
+        </span>
+      </nav>
+      <form class="header-search" action="./search.html" method="get">
+        <label class="sr-only" for="topSearch">搜索影片</label>
+        <input id="topSearch" type="search" name="q" placeholder="搜索影片、类型、地区">
+        <button type="submit">搜索</button>
+      </form>
+      <button class="mobile-menu-button" type="button" aria-label="打开导航" data-menu-toggle>☰</button>
+    </div>
+    <nav class="mobile-nav" data-mobile-nav aria-label="移动端导航">
+      <a class="" href="./index.html">首页</a>
+<a class="" href="./categories.html">分类总览</a>
+<a class="" href="./ranking.html">排行榜</a>
+<a class="active" href="./search.html">搜索筛选</a>
+      <a href="./category-hot-domestic.html">热门国产电影</a>
+<a href="./category-drama-healing.html">剧情治愈</a>
+<a href="./category-comedy-variety.html">喜剧综艺</a>
+<a href="./category-romance-youth.html">爱情青春</a>
+    </nav>
+  </header>
+  <main>
+
+    <section class="page-hero small-hero">
+      <div>
+        <span class="eyebrow">搜索筛选</span>
+        <h1>搜索热门国产电影</h1>
+        <p>输入影片名、地区、年份、类型或标签，即可在 2000 部影片中快速筛选。</p>
+      </div>
+    </section>
+    <section class="search-page-panel">
+      <form class="large-search" action="./search.html" method="get" data-search-form>
+        <input type="search" name="q" placeholder="例如：剧情、2024、中国大陆、奇幻" data-search-input>
+        <button type="submit">搜索</button>
+      </form>
+      <div class="filter-chips search-presets">
+        <button type="button" data-preset="国产">国产</button>
+        <button type="button" data-preset="剧情">剧情</button>
+        <button type="button" data-preset="爱情">爱情</button>
+        <button type="button" data-preset="悬疑">悬疑</button>
+        <button type="button" data-preset="科幻">科幻</button>
+        <button type="button" data-preset="2024">2024</button>
+      </div>
+      <p class="filter-count">找到 <span data-search-count>0</span> 部影片</p>
+    </section>
+    <section class="content-section white-section">
+      <div class="movie-grid" data-search-results>
+        <p class="empty-state">请输入关键词搜索，或点击上方快捷筛选。</p>
+      </div>
+    </section>
+    <script src="./assets/js/search-data.js"></script>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-grid">
+      <section>
+        <h2>热门国产电影</h2>
+        <p>热门国产电影栏目展示关注度较高的国产影片内容，适合按热度和类型浏览。</p>
+      </section>
+      <section>
+        <h2>热门分类</h2>
+        <div class="footer-links">
+          <a href="./category-hot-domestic.html">热门国产电影</a>
+<a href="./category-drama-healing.html">剧情治愈</a>
+<a href="./category-comedy-variety.html">喜剧综艺</a>
+<a href="./category-romance-youth.html">爱情青春</a>
+<a href="./category-action-adventure.html">动作冒险</a>
+<a href="./category-sci-fi-fantasy.html">科幻奇幻</a>
+<a href="./category-mystery-crime.html">悬疑犯罪</a>
+<a href="./category-animation-family.html">动画家庭</a>
+        </div>
+      </section>
+      <section>
+        <h2>站内导航</h2>
+        <div class="footer-links">
+          <a href="./index.html">首页</a>
+          <a href="./categories.html">分类总览</a>
+          <a href="./ranking.html">排行榜</a>
+          <a href="./search.html">搜索筛选</a>
+        </div>
+      </section>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 热门国产电影</span>
+      <span>高清影片在线观看</span>
+    </div>
+  </footer>
+  <script src="./assets/js/main.js"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?76b5e2e0f6c84c06f0a7cb7105df054d";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
